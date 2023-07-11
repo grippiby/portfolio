@@ -1,0 +1,32 @@
+.container {
+    background-color: pink;
+    min-height: 200px;
+}
+
+.aboutMe {
+    border: 1px solid #000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10%;
+ 
+    margin: 5%;
+}
+
+.text {
+    background-color: lightgrey;
+    /* width: 4rem;
+     height: 3rem;*/
+    text-align: left;
+    max-width: 400px;
+    height: 50%;
+    font-weight: bold;
+    line-height: 16px;
+    padding: 5px;
+}
+
+.photo_img {
+    width: 200px;
+    height: 250px;
+    background-color: lightgrey;
+}

@@ -1,0 +1,25 @@
+.container {
+    background-color: #fff2de;
+    min-height: 200px;
+}
+
+.mainblock {
+    border: 1px solid #000;
+    display: flex;
+
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+
+    margin: 5%;
+}
+
+.text {
+    background-color: lightgrey;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 16px;
+    /*width: 100%;*/
+    margin-bottom: 50px;
+    padding: 5px;
+}

@@ -1,0 +1,42 @@
+.container {
+    min-height: 200px;
+    min-width: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.form_container {
+    border: 3px solid #000;
+
+    /*    display: flex;
+        justify-content: end;
+        align-items: stretch;*/
+
+}
+
+.form_group {
+    border: 1px solid red;
+    /*    display: flex;
+        justify-content: end;
+        flex-direction: column;*/
+    overflow: hidden;
+    padding-bottom: 2%;
+}
+
+.form_group input {
+    display: block;
+    width: 100%;
+}
+
+.form_group textarea {
+    /*убрать выделение*/
+    /*  outline: none;
+      -moz-appearance: none;
+      border: 1px solid #999;*/
+    resize: none;
+    display: block;
+    width: 100%;
+    margin-bottom: -2%;
+}
+
