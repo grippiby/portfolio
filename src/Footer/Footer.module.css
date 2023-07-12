@@ -23,15 +23,47 @@
 }
 
 .socials {
-    min-width: 400px;
+    min-width: 340px;
     border: 1px solid #000;
     display: flex;
     justify-content: space-between;
-
 }
 
 .socials_logo {
-    width: 50px;
-    height: 50px;
+    width: 70px;
+    height: 70px;
     background-color: #a99d9d;
+}
+
+@media (max-width: 576px) {
+    .container {
+        min-height: 400px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .mainblock {
+        min-height: 250px;
+        border: none;
+    }
+
+    .socials {
+        width: 100%;
+        border: none;
+    }
+
+    .socials_logo {
+        width: 80px;
+        height: 80px;
+        background-color: #a99d9d;
+    }
+
+    .text {
+        background-color: lightgrey;
+        font-weight: bold;
+        margin: 5% 0;
+        font-size: 32px;
+        line-height: 36px;
+    }
 }

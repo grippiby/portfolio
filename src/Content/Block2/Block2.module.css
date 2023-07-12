@@ -6,17 +6,13 @@
 .mainblock {
     border: 1px solid #000;
     display: flex;
-    /*  padding: 0 20px;*/
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
-
-    /* flex-direction: row;*/
-    margin: 5%;
+    margin: 2%;
 }
 
 .text {
-
     background-color: lightgrey;
     font-weight: bold;
     line-height: 16px;
@@ -30,4 +26,23 @@
     display: flex;
     justify-content: space-between;
     width: 100%;
+    flex-wrap: wrap;
+}
+
+
+@media (max-width: 576px) {
+    .mainblock {
+        border: none;
+    }
+
+    .text {
+        margin: 5% 0;
+        font-size: 30px;
+        line-height: 36px;
+    }
+
+    .cards {
+        border: none;
+        justify-content: center;
+    }
 }

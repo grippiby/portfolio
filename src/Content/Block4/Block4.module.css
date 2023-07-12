@@ -6,11 +6,9 @@
 .mainblock {
     border: 1px solid #000;
     display: flex;
-
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
-
     margin: 5%;
 }
 
@@ -22,4 +20,26 @@
     /*width: 100%;*/
     margin-bottom: 50px;
     padding: 5px;
+}
+
+@media (max-width: 576px) {
+    .container {
+        min-height: 400px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .mainblock {
+        min-height: 250px;
+        border: none;
+    }
+
+    .text {
+        background-color: transparent;
+        font-weight: bold;
+        margin: 5% 0;
+        font-size: 32px;
+        line-height: 36px;
+    }
 }

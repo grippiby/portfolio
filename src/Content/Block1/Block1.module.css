@@ -7,10 +7,9 @@
     border: 1px solid #000;
     display: flex;
     justify-content: space-between;
-    align-items: center;
-    padding: 0 10%;
- 
-    margin: 5%;
+    padding: 0 2%;
+    margin: 2%;
+    flex-wrap: wrap;
 }
 
 .text {
@@ -18,8 +17,8 @@
     /* width: 4rem;
      height: 3rem;*/
     text-align: left;
-    max-width: 400px;
-    height: 50%;
+    max-width: 360px;
+    height: 100%;
     font-weight: bold;
     line-height: 16px;
     padding: 5px;
@@ -29,4 +28,23 @@
     width: 200px;
     height: 250px;
     background-color: lightgrey;
+    margin: 2%;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+@media (max-width: 576px) {
+    .aboutMe {
+        border: none;
+        margin: 2% 0;
+        justify-content: center;
+    }
+
+    .text {
+        margin: 0;
+        margin-top: -4%;
+        font-size: 18px;
+        line-height: 22px;
+        background-color: transparent;
+    }
 }

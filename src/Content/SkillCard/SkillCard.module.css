@@ -5,7 +5,7 @@
     display: flex;
     justify-content: space-between;
     flex-direction: column;
-    /* gap: normal;*/
+    margin: 2%;
     border-right: 2px solid darkblue;
 }
 

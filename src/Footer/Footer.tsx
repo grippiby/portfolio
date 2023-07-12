@@ -7,7 +7,7 @@ export const Footer: React.FC<FooterProps> = (props) => {
 	return (
 		<div className={s.container}>
 			<div className={s.mainblock}>
-				<div className={s.text}>Контакты
+				<div className={s.text}>Ниликовский Святослав
 				</div>
 				<div className={s.socials}>
 					<div className={s.socials_logo}>
