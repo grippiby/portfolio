@@ -1,6 +1,6 @@
 .container {
     background-color: rgba(243, 188, 188, 0.82);
-    min-height: 400px;
+    min-height: 300px;
     /* max-width: 360px;*/
 }
 
@@ -10,7 +10,7 @@
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
-    margin: 5%;
+    margin: 2%;
 }
 
 .text {

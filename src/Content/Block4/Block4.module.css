@@ -1,6 +1,6 @@
 .container {
     background-color: #fff2de;
-    min-height: 200px;
+    min-height: 100px;
 }
 
 .mainblock {
@@ -9,7 +9,7 @@
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
-    margin: 5%;
+    margin: 2%;
 }
 
 .text {

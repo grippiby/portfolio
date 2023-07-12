@@ -34,3 +34,21 @@
     font-weight: bold;
     padding: 0 5%;
 }
+
+@media (max-width: 576px) {
+    .container {
+        font-size: 22px;
+        min-width: 300px;
+        min-height: 350px;
+    }
+
+    .technology_name {
+        font-size: 26px;
+    }
+
+    .technology_logo {
+        width: 100px;
+        height: 100px;
+    }
+
+}
