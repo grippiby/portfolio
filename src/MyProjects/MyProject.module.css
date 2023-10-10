@@ -1,0 +1,55 @@
+.myProjects {
+  min-height: 100vh;
+  background: #faf2f2;
+}
+
+.myProjectsContainer {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding-top: 50px;
+}
+
+.projectsWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+.projectsTitle {
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 20px;
+  background: lightgreen;
+}
+
+.projects {
+  display: flex;
+  justify-content: center;
+  gap: 70px;
+  flex-wrap: wrap;
+  margin-top: 70px;
+  width: 100%;
+}
+
+@media (max-width: 700px) {
+  .projects {
+    justify-content: center;
+  }
+}
+
+@keyframes slideInFromBottom {
+  from {
+    transform: translateY(200px);
+  }
+  to {
+    transform: translateY(0);
+  }
+}
+
+.SlideIn {
+  animation-name: slideInFromBottom;
+  animation-duration: 3s;
+  animation-timing-function: ease-out;
+}

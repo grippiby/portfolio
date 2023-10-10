@@ -1,0 +1,61 @@
+.skillsBlock {
+  min-height: 100vh;
+  background: rgb(248, 249, 250);
+}
+
+.skillsContainer {
+  flex-direction: column;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.skillsWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+.skillsTitle {
+  font-size: 40px;
+  margin-top: 50px;
+  margin-bottom: 100px;
+  background: lightgreen;
+}
+
+.skills {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  width: 70%;
+  padding-bottom: 20px;
+}
+
+@media (max-width: 700px) {
+  .skills {
+    justify-content: center;
+  }
+
+  .skillsContainer {
+    padding-bottom: 20px;
+  }
+
+  .skillsTitle {
+    text-align: center;
+  }
+}
+
+@keyframes slideInFromBottom {
+  from {
+    transform: translateY(200px);
+  }
+  to {
+    transform: translateY(0);
+  }
+}
+
+.SlideIn {
+  animation-name: slideInFromBottom;
+  animation-duration: 3s;
+  animation-timing-function: ease-out;
+}
